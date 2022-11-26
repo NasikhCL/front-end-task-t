@@ -11,6 +11,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+
 } 
 nav{
     display: flex;
@@ -95,12 +96,33 @@ nav img{
     transition: 1s;
 
 }
-.bottom-icons{
+.bottom-icon-left{
+    position: absolute;
+    bottom:15px;
+    left: 30px;
+}
+.bottom-icon-right{
+    position: absolute;
+    bottom:15px;
+    right: 30px;
+}
+.bottom-iconssada{
     display: flex;
+
+    align-self: baseline; 
+       /* align-items: center; */
     justify-content: space-between;
-    height: 60px;
-    margin: 460px 80px;
+    /* width: 90%; */
+    /* margin:0 auto; */
+    position: absolute;
+    /* left: 5%; */
+    bottom: 15px;
+    padding:0 40px;
+    /* margin: 460px 80px; */
     
+}
+.bottom-icons img{
+    width: 70px;
 }
 
 nav .fa{
